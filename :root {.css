@@ -1,0 +1,157 @@
+:root {
+    --primary-color: #0d1211;
+    --text-color: #0a0d0d;
+    --background-light: #0c0909;
+    --header-height: 100vh;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 110%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', 'Times New Roman', Times, serif, sans-serif;
+    color: #021110;
+    line-height: 1.5;
+    overflow-x: hidden;
+}
+
+.header-background {
+    background: linear-gradient(rgba(255, 254, 253, 0.7), rgba(255, 254, 253, 0.9)), 
+                url("https://i.imgur.com/TAn6FWz.jpg") center center fixed;
+    background-size: cover;
+    text-align: center;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-family: 'Unica One', cursive;
+    font-size: 1.2rem;
+}
+
+.header-content img {
+    max-width: 250px;
+    border-radius: 50%;
+}
+
+.header-content h1, .header-content p {
+    margin: 0.5rem 0;
+    font-family: 'Unica One', cursive;
+    position: relative;
+    top: -250px;
+}
+
+#about {
+    background-color: #1c1b1b8b; 
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 40px;
+    border-radius: 0.5%;
+    text-align: center;
+   position: relative;
+   top: -550px;
+}
+#Education {
+padding-left: 40px;
+padding-right: 40px;
+margin: 40px;
+border-radius: 0.5%;
+text-align: left;
+position: relative;
+top: -575px;
+}
+#seminars{
+    padding-left: 40px;
+padding-right: 40px;
+margin: 40px;
+border-radius: 0.5%;
+text-align: left;
+position: relative;
+top: -1050px;
+}
+#Hobbies{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 40px;
+    border-radius: 0.5%;
+    text-align: center;
+    position: relative;
+    top: -1000px;   
+    margin-left: 650px;
+}
+#skill{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin: 40px;
+    border-radius: 0.5%;
+    text-align: center;
+    position: relative;
+    top: -550px;   
+    margin-left: 650px;
+}
+
+
+.td-btn {
+    padding: 12px 36px;
+    text-transform: uppercase;
+    transition: background-color 0.2s ease-in-out;
+     background-color: #010404; 
+
+}
+
+
+
+/* Additional Styles */
+h2 {
+    color: #333;
+    font-family: 'Unica One', cursive;
+    font-size: 2.3rem;
+}
+
+a {
+    color: #010908;
+    transition: color 0.2s ease-in-out;
+}
+
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+  
+ 
+}
